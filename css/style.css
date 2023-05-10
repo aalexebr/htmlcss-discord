@@ -165,7 +165,7 @@ footer *{
 footer{
     background-color: #23272A;
 }
-
+/*MAIN FOOTER*/
 .box-footer1{
     width: calc(100% / 3);
     align-self: stretch;
@@ -193,12 +193,23 @@ footer > section > .footer-main{
 }
 .box-footer-rows li{
     font-size: 0.75em;
+    margin: 10px 0;
 }
 .column{
     align-items: stretch;
 }
+
+
+/* NAV FOOTER*/
 .footer-nav{
-    background-color: #7FFFD4;
-    height: 40px;
     justify-content: space-between;
+}
+.logo > img{
+    height: 25px;
+    margin-top: 5px;
+}
+.footer-nav .button{
+    background-color: #7289DA;
+    color: white;
+    font-size: 0.75em;
 }
