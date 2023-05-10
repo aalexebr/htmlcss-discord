@@ -6,9 +6,6 @@
 
 /* DEBUG */
 
-.debug header{
-    background-color: #ADD8E6;
-}
 .debug .menu-column{
     height: 30px;
     border: 2px dotted red;
@@ -26,6 +23,10 @@
 }
 
 /*  GENERAL  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
 .flex{
     display: flex;
     justify-content: center;
@@ -36,21 +37,34 @@
     max-width: 1200px;
     width: 75%;
     margin: auto;
+    
+}
+section{
     padding: 20px 0 20px 0;
 }
-/*section{
-    padding: 20px 0 20px 0;
-}*/
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+.button{
+    padding: 4px;
+    border-radius: 15px;
+    background-color: white;
+}
+
 /* HEADER */
 header{
     padding-top: 10px;
+    background-color: #255EE9;
     
 }
 .menu{
     height: 50px;
 }
 .menu-column{
-    background-color: #D9A523;
     width: calc(100% / 4);
     margin-bottom: 10px;
     text-align: center;
@@ -67,6 +81,14 @@ header{
     background-color: #EE82EE;
     height: 100px;
     width: 60%;
+}
+.menu-column > ul > li{
+    display: inline-block;
+    font-size: 0.75em;
+}
+header  .menu-column > .button{
+    color: black;
+    font-size: 0.75em;
 }
 
 /*  MAIN */
@@ -122,9 +144,7 @@ hr{
     height: 40px;
     justify-content: space-between;
 }
-.button, .logo{
-    background-color: lightcoral;
-}
+
 footer:first-of-type{
     border-bottom: 2px solid #D3D3D3;
 }
