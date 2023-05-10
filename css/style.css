@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.debug header{
+    background-color: #ADD8E6;
+}
+.debug .menu-column{
+    height: 30px;
+    border: 2px dotted red;
+}
+.debug .box1,
+.debug .box2,
+.debug .box3,
+.debug .box-header,
+.button, 
+.logo{
+    border: 2px dotted black;
+}
+.debug .container{
+    border: 2px dotted rgb(125, 125, 26)
+}
+
+/*  GENERAL  */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 75%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+/*section{
+    padding: 20px 0 20px 0;
+}*/
+/* HEADER */
+header{
+    padding-top: 10px;
+    
+}
+.menu{
+    height: 50px;
+}
+.menu-column{
+    background-color: #D9A523;
+    width: calc(100% / 4);
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.menu-column:nth-of-type(2n+2){
+    width: calc(100% / 2);
+}
+.bottom-header{
+    background-color: #00008B;
+}
+
+.box-header{
+    background-color: #EE82EE;
+    height: 100px;
+    width: 60%;
+}
+
+/*  MAIN */
+main > section:nth-of-type(2n+2){
+    background-color: #D3D3D3;
+}
+.box1{
+    height: 100px;
+    width: 60%;
+    background-color: #1E90FF;
+}
+.box2{
+    height: 100px;
+    width: 40%;
+    background-color: #FFC0CB;
+}
+.box3{
+    height: 150px;
+    background-color: #228B22;
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272A;
+}
+
+.box-footer1{
+    width: calc(100% / 3);
+    background-color: #F08080;
+    height: 100px;
+}
+.box-footer2{
+    width: calc((100% / 3) * 2);
+    background-color: #1FB1A9;
+    height: 100px;
+}
+.box-footer-rows{
+    width: calc(100% / 4);
+    border: 2px dotted white;
+    height: 100%;
+}
+.footer-main{
+    padding-top: 5px;
+
+}
+hr{
+    color: white;
+}
+.footer-nav{
+    background-color: #7FFFD4;
+    height: 40px;
+    justify-content: space-between;
+}
+.button, .logo{
+    background-color: lightcoral;
+}
+footer:first-of-type{
+    border-bottom: 2px solid #D3D3D3;
+}
+footer:last-of-type{
+    padding-top: 20px;
+}
