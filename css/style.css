@@ -159,36 +159,30 @@ section .box3 div > img{
 }
 
 /* FOOTER */
-
+footer *{
+    color: white;
+}
 footer{
     background-color: #23272A;
 }
 
 .box-footer1{
     width: calc(100% / 3);
-    background-color: #F08080;
-    height: 100px;
+    align-self: stretch;
 }
 .box-footer2{
     width: calc((100% / 3) * 2);
-    background-color: #1FB1A9;
-    height: 100px;
 }
 .box-footer-rows{
     width: calc(100% / 4);
     border: 2px dotted white;
-    height: 100%;
 }
-
-.footer-nav{
-    background-color: #7FFFD4;
-    height: 40px;
-    justify-content: space-between;
-}
+.box-footer-rows 
 footer > section > .footer-main{
     border-bottom: 2px solid #7289DA;
 }
-.box-footer1 > h4{
+.box-footer1 h4,
+.box-footer-rows h5{
     color: #7289DA;
 }
 .language > img{
@@ -196,4 +190,15 @@ footer > section > .footer-main{
 }
 .language{
     font-size: 0.65em;
+}
+.box-footer-rows li{
+    font-size: 0.75em;
+}
+.column{
+    align-items: stretch;
+}
+.footer-nav{
+    background-color: #7FFFD4;
+    height: 40px;
+    justify-content: space-between;
 }
